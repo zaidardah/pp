@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: calc(100% - 120px);
+    margin: auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
+}
+/*.Benefits .row:nth-child(1){
+    display: flex;
+    flex-wrap: nowrap;
+}*/
+
+.Benefits p{
+    width: 70%;
+   
+}
+.Benefits a{
+    background-color: rgba(252, 252, 253, 1);
+}
+.Benefits img{
+    width: 5%;
+    height: 5%;
+}
+.Benefits .card{
+    flex: 1 1 300px;
+}
+.Benefits .pic{
+
+}
